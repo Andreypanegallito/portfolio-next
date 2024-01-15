@@ -1,0 +1,29 @@
+footer {
+  .footer-icons {
+    margin: 5px 0 10px 0;
+
+    a {
+      color: #fff;
+      margin: 0 10px;
+
+      .icon {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    .footer-icons {
+      a {
+        .icon {
+          width: 35px;
+          height: 35px;
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+}

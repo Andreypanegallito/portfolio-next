@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --background-color: #20232a;
+  --cor-destaque: #7b00ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--background-color);
+  font-family: "Inter", sans-serif;
+
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor-destaque);
+
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  transition: opacity 0.5s 0.25s;
+}
+
+.active .container {
+  opacity: 0.5;
+  transition: opacity 0.5s 0.25s;
+}
+
+.titulo {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+
+  h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+
+.timelines {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icons-hability  {
+  a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a.react:hover {
+      color: #61dafb;
+    }
+    a.js:hover {
+      color: #fcdc00;
+    }
+    a.csharp:hover {
+      color: rgb(151, 128, 229);
+    }
+    a.oracle:hover {
+      color: #d64834;
+    }
+    a.sql:hover {
+      color: #f29111;
+    }
+    a.css3:hover {
+      color: #2965f1;
+    }
+
+    .icon {
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      transition: 0.5s;
+    }
+
+    .icon:hover {
+      transform: scale(1.4);
+      transition: 0.5s;
+    }
+}

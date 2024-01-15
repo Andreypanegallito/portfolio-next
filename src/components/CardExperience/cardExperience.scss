@@ -1,0 +1,129 @@
+.timeline {
+  padding: 15px 0;
+  width: 85%;
+
+  .timeline-item {
+    position: relative;
+    padding: 15px 20px 10px;
+    margin: 0 0 20px 20px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    .item-title {
+      display: block;
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.2em;
+    }
+
+    .item-nameperiod {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .item-period {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 1.2em;
+      color: #2eca7f;
+      margin-bottom: 8px;
+    }
+
+    .item-small {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 1.2em;
+      color: #9e9e9e;
+      margin-left: 5px;
+      margin-bottom: 8px;
+      padding-left: 8px;
+      border-left: 1px solid #e0e0e0;
+    }
+
+    .item-description {
+      font-size: 16px;
+      width: 90%;
+      margin: 15px auto;
+    }
+  }
+
+  .timeline-item:hover {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-item:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #2eca7f;
+    z-index: 2;
+  }
+
+  .timeline-item:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color: #2eca7f;
+    border-radius: 10px;
+    width: 27px;
+    height: 2px;
+    z-index: 1;
+  }
+}
+
+.timeline.left {
+  border-left: 2px solid #e0e0e0;
+
+  .timeline-item {
+    border-left: 2px solid #2eca7f;
+    margin: 0 0 20px 20px;
+  }
+
+  .timeline-item::before {
+    top: 22px;
+    left: -29px;
+  }
+
+  .timeline-item::after {
+    top: 27px;
+    left: -27px;
+  }
+}
+
+.timeline.right {
+  border-right: 2px solid #e0e0e0;
+
+  .timeline-item {
+    border-right: 2px solid #2eca7f;
+    margin: 0 20px 20px 0;
+  }
+  .timeline-item::before {
+    top: 20px;
+    right: -31px;
+  }
+  .timeline-item::after {
+    top: 27px;
+    right: -31px;
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    width: 100%;
+
+    .timeline-item {
+      .item-description {
+        width: 100%;
+      }
+    }
+  }
+}
