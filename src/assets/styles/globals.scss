@@ -31,8 +31,7 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-color);
-  font-family: "Inter", sans-serif;
-
+  font-family: 'Inter', sans-serif;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -96,8 +95,8 @@ a {
   margin-top: 20px;
 }
 
-.icons-hability  {
-  a{
+.icons-hability {
+  a {
     color: #fff;
     display: flex;
     justify-content: center;
@@ -105,33 +104,44 @@ a {
   }
 
   a.react:hover {
-      color: #61dafb;
-    }
-    a.js:hover {
-      color: #fcdc00;
-    }
-    a.csharp:hover {
-      color: rgb(151, 128, 229);
-    }
-    a.oracle:hover {
-      color: #d64834;
-    }
-    a.sql:hover {
-      color: #f29111;
-    }
-    a.css3:hover {
-      color: #2965f1;
-    }
+    color: #61dafb;
+  }
+  a.js:hover {
+    color: #fcdc00;
+  }
+  a.csharp:hover {
+    color: rgb(151, 128, 229);
+  }
+  a.oracle:hover {
+    color: #d64834;
+  }
+  a.sql:hover {
+    color: #f29111;
+  }
+  a.css3:hover {
+    color: #2965f1;
+  }
 
-    .icon {
-      margin: 0 10px;
-      width: 30px;
-      height: 30px;
-      transition: 0.5s;
-    }
+  .icon {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+  }
 
-    .icon:hover {
-      transform: scale(1.4);
-      transition: 0.5s;
-    }
+  .icon:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+  }
+}
+
+.btn-menu.cor-fundo {
+  background-color: var(--cor-destaque);
+  transition: background-color 0.5s;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90vw;
+  }
 }

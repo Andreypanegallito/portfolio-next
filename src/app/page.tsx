@@ -10,10 +10,7 @@ export default function Home() {
   return (
     <>
       <Sidebar />
-      <div
-        className="m-auto w-full container"
-        style={{ maxWidth: 1400 + 'px' }}
-      >
+      <div className="m-auto w-full container">
         <Initial />
         <About />
         <Hability />

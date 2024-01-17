@@ -6,7 +6,7 @@ const Initial = () => {
   return (
     <div
       id="initial"
-      className="w-full h-screen flex flex-col items-center justify-center"
+      className="w-full h-screen flex flex-col items-center justify-center initial"
     >
       <div className="w-full text-center">
         <h2 className="text-3xl font-bold">Olá, eu sou o Andrey</h2>

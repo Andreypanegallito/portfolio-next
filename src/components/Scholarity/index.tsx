@@ -20,8 +20,16 @@ const Scholarity = () => {
 
         <CardExperience
           title="Bacharelado de Sistemas de Informação"
-          period="2022 - andamento"
+          period="2022 - 2023"
           schoolcompany="UNOESC Campus Chapecó"
+          position="left"
+          description="Curso de bacharelado em sistema de informação"
+        />
+
+        <CardExperience
+          title="Bacharelado de Sistemas de Informação"
+          period="2023 - Andamento"
+          schoolcompany="Uniasselvi Campus Chapecó"
           position="left"
           description="Curso de bacharelado em sistema de informação"
         />
