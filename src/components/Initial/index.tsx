@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Initial.scss';
+
 const Initial = () => {
   return (
     <div
@@ -16,10 +18,13 @@ const Initial = () => {
         </p>
       </div>
       <div className="div-button w-full flex items-center justify-center my-3">
-        <button type="button" className="rounded-xl border-0 p-0">
+        <button
+          type="button"
+          className="rounded-xl border-0 p-0 btnInitial mt-3"
+        >
           <a
             href="#about"
-            className="text-white no-underline text-base w-full h-full justify-center items-center"
+            className="flex text-white no-underline text-base w-full h-full justify-center items-center"
           >
             Saber mais!
           </a>
