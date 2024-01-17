@@ -1,10 +1,17 @@
-// import ImagemLogo from '../../assets/images/logo_about.jpg';
+// import ImagemLogo from '@/assets/image/logo.jpg';
+import Image from 'next/image';
 
 const About = () => {
   return (
     <div id="about" className="about my-8 w-full">
       <div className="img-about">
-        {/* <img src={ImagemLogo} alt="teste" /> */}
+        <Image
+          src="/assets/image/logo.jpg"
+          width={250}
+          height={250}
+          className="m-auto rounded-full"
+          alt="teste"
+        />
       </div>
       <div className="infos-about">
         <div className="info-about text-left my-4">
