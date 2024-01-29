@@ -26,7 +26,7 @@ const Experience = () => {
 
         <CardExperience
           title="Programador de Sistemas"
-          period="2022 - Atual"
+          period="2022 - 2024"
           schoolcompany="Hospital Unimed Chapecó"
           position="left"
           description="Dar suporte aos softwares sob minha responsabilidade, atendendo aos chamados, documentando as atividades, realizar visitas técnicas nas áreas, testando e implementando atualizações de sistemas, gerar documentação especifica do sistema e tarefas a serem executadas."
