@@ -11,7 +11,7 @@ const Experience = () => {
         <CardExperience
           title="Estagiário em TI"
           period="2019 - 2020"
-          schoolcompany="Calafate Indústria de Máquinas Agroindustriais LTDA"
+          schoolcompany="Embritech"
           position="left"
           description="Suporte de TI da empresa, responsável por instalação de programas em geral, cabeamento de rede, instalação de impressoras em rede e manutenção de computadores."
         />
