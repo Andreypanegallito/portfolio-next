@@ -1,10 +1,9 @@
 import React from 'react';
 
-// import './hability.scss';
-
-import { DiReact, DiJsBadge, DiDatabase, DiCss3 } from 'react-icons/di';
+import { DiReact, DiDatabase, DiCss3 } from 'react-icons/di';
 import { TbBrandCSharp } from 'react-icons/tb';
-import { SiOracle } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa';
 
 const Hability = () => {
   return (
@@ -28,7 +27,7 @@ const Hability = () => {
       </div>
       <div className="icons-hability flex items-center justify-center">
         <a
-          href="https://pt-br.reactjs.org"
+          href="https://github.com/Andreypanegallito/portfolio-next"
           target="_blank"
           className="react"
           rel="noreferrer"
@@ -36,15 +35,15 @@ const Hability = () => {
           <DiReact className="icon" />
         </a>
         <a
-          href="https://www.javascript.com/"
+          href="https://github.com/Andreypanegallito/GameDoors"
           target="_blank"
-          className="js"
+          className="ts"
           rel="noreferrer"
         >
-          <DiJsBadge className="icon" />
+          <SiTypescript className="icon" />
         </a>
         <a
-          href="https://learn.microsoft.com/pt-br/dotnet/csharp/"
+          href="https://github.com/Andreypanegallito/primeiraAPI"
           target="_blank"
           className="csharp"
           rel="noreferrer"
@@ -52,15 +51,15 @@ const Hability = () => {
           <TbBrandCSharp className="icon" />
         </a>
         <a
-          href="https://www.oracle.com/br/"
+          href="https://github.com/Andreypanegallito/node-email"
           target="_blank"
-          className="oracle"
+          className="node"
           rel="noreferrer"
         >
-          <SiOracle className="icon" />
+          <FaNodeJs className="icon" />
         </a>
         <a
-          href="https://www.w3.org/TR/webdatabase"
+          href="https://github.com/Andreypanegallito/cadastroNode"
           target="_blank"
           className="sql"
           rel="noreferrer"
@@ -68,7 +67,7 @@ const Hability = () => {
           <DiDatabase className="icon" />
         </a>
         <a
-          href="https://www.w3.org/Style/CSS/Overview.en.html"
+          href="https://github.com/Andreypanegallito/portfolio-next"
           target="_blank"
           className="css3"
           rel="noreferrer"
