@@ -31,6 +31,14 @@ const Experience = () => {
           position="left"
           description="Dar suporte aos softwares sob minha responsabilidade, atendendo aos chamados, documentando as atividades, realizar visitas técnicas nas áreas, testando e implementando atualizações de sistemas, gerar documentação especifica do sistema e tarefas a serem executadas."
         />
+
+        <CardExperience
+          title="Programador de Sistemas"
+          period="2024 - Atual"
+          schoolcompany="Gertech Soluções Industriais"
+          position="left"
+          description="Dar suporte aos softwares sob minha responsabilidade, implementando features, documentando as atividades."
+        />
       </div>
     </div>
   );
