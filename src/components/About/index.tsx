@@ -37,9 +37,9 @@ const About = () => {
       </div>
       <div className="text-about">
         <p className="text-justify text-xl my-5">
-          Sou um programador front-end que tem alguns pontos de conhecimento em
-          sql, nodeJS e C#. Sou formado no IFSC Campus Chapecó no curso de
-          técnico em informática integrado ao ensino médio. No curso descobri um
+          Sou um programador full-stack com conhecimento em angular, typescript, 
+          C#, C++ e SQL. Sou formado no IFSC Campus Chapecó no curso de técnico 
+          em informática integrado ao ensino médio. No curso descobri um
           pouco sobre o mundo da programação e resolvi me aprofundar na área
           fazendo cursos e trabalhando para que pudesse adquirir experiência.
         </p>
