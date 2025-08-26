@@ -34,8 +34,16 @@ const Experience = () => {
 
         <CardExperience
           title="Programador de Sistemas"
-          period="2024 - Atual"
+          period="2024 - 2025"
           schoolcompany="Gertech Soluções Industriais"
+          position="left"
+          description="Dar suporte aos softwares sob minha responsabilidade, implementando features, documentando as atividades."
+        />
+
+        <CardExperience
+          title="Programador de Software"
+          period="2025 - Atual"
+          schoolcompany="Aurora Coop"
           position="left"
           description="Dar suporte aos softwares sob minha responsabilidade, implementando features, documentando as atividades."
         />

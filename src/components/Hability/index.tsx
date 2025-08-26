@@ -16,13 +16,11 @@ const Hability = () => {
       </div>
       <div className="text-hability">
         <p className="text-justify text-xl my-5">
-          Atualmente estou estudando a biblioteca react para o front-end, e a
-          linguagem C# para o back-end. Também estudo linguagem de banco de
-          dados, principalmente PLSQL da Oracle. Tenho conhecimento em
-          desenvolvimento de animações básicas em css ou em scss. Sempre estou
-          em busca de melhorar meu nível técnico para que eu possa assumir novos
-          desafios, mas também para poder melhorar minha capacidade de resolver
-          novos problemas e adquirir experiência.
+          Atualmente estudo angular para o front-end e C# para o back-end.
+          Também estudo linguagem de banco de dados PLSQL da Oracle. Sempre
+          estou em busca de melhorar meu nível técnico para que eu possa assumir
+          novos desafios, mas também para poder melhorar minha capacidade de
+          resolver novos problemas e adquirir experiência.
         </p>
       </div>
       <div className="icons-hability flex items-center justify-center">
