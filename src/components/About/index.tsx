@@ -1,4 +1,3 @@
-// import ImagemLogo from '@/assets/image/logo.jpg';
 import Image from 'next/image';
 
 const About = () => {
@@ -24,10 +23,6 @@ const About = () => {
           <h3 className="ms-0 me-0 text-xl">Nascimento:</h3>
           <p className="text-left ms-0 me-0 text-lg">10/10/2001</p>
         </div>
-        {/* <div className="info-about text-left my-4">
-          <h3 className="ms-0 me-0 text-xl">Cidade:</h3>
-          <p className="text-left ms-0 me-0 text-lg">Chapecó - SC</p>
-        </div> */}
         <div className="info-about text-left my-4">
           <h3 className="ms-0 me-0 text-xl">E-mail:</h3>
           <p className="text-left ms-0 me-0 text-lg">
@@ -37,11 +32,11 @@ const About = () => {
       </div>
       <div className="text-about">
         <p className="text-justify text-xl my-5">
-          Sou um programador full-stack com conhecimento em angular, typescript, 
-          C#, C++ e SQL. Sou formado no IFSC Campus Chapecó no curso de técnico 
-          em informática integrado ao ensino médio. No curso descobri um
-          pouco sobre o mundo da programação e resolvi me aprofundar na área
-          fazendo cursos e trabalhando para que pudesse adquirir experiência.
+          Sou um programador full-stack com conhecimento em angular, typescript,
+          C#, C++ e SQL. Sou formado no IFSC Campus Chapecó no curso de técnico
+          em informática integrado ao ensino médio. No curso descobri um pouco
+          sobre o mundo da programação e resolvi me aprofundar na área fazendo
+          cursos e trabalhando para que pudesse adquirir experiência.
         </p>
         <p className="text-justify text-xl my-5">
           Me considero alguém proativo e sempre com vontade de adquirir
